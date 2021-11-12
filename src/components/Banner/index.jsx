@@ -1,13 +1,9 @@
 import './style.css';
 
-const Navbar = () => {
+export const Banner = () => {
     return (
         <>
-          <nav className=></nav>
-
-
-
-
+                
         </>
     )
 }

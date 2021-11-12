@@ -1,8 +1,7 @@
 .navbar {
     justify-content: flex-end;
-    background-color: #121214;
-}
-
-.navbar bg-light {
-    background-color: #121214;
+    background-color: #001219 !important;
+    .navbar-light .navbar-nav .nav-link.active {
+        color: white;
+    }
 }

@@ -1,11 +1,16 @@
-import './App.css';
+import './App.scss';
+import { NavPortfolio } from './components/NavPortfolio';
+import { Banner } from './components/Banner';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-      </header>
-    </div>
+    <>
+       <section>
+       <NavPortfolio />
+       <Banner />
+      </section>
+
+    </>
   );
 }
 

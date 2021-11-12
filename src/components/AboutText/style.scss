@@ -1,0 +1,27 @@
+.about-me {
+    display: flex;
+    width: 100vw;
+    justify-content: flex-end;
+    
+}
+
+.about-me-picture {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.about-me-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-left: 8px solid #4EFA37;
+    width: 77vw;
+}
+
+p {
+    margin: 50px;
+    color: #4EFA37;
+    text-align: center;
+}

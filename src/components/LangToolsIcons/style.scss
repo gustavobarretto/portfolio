@@ -1,8 +1,18 @@
-img {
-    width: 100px;
-    height: 100px;
-}
+.tools {
+    display: flex;
+    width: 100vw;
+    justify-content: flex-start;
 
-.lang-tools-icons {
-    gap: 10px;
+    .lang-tools-icons {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        border-right: 8px solid #4EFA37;
+        margin-right: 160px;
+        padding: 80px;
+        img {
+            width: 4rem;
+            height: 4rem;
+        }
+    }
 }

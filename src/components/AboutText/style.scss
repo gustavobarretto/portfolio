@@ -1,7 +1,7 @@
 .about-me-picture {
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
+    width: 40vw;
+    height: auto;
+ 
 }
 
 .about-me-text {
@@ -9,13 +9,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    align-content: space-around;
     border-left: 8px solid #4EFA37;
-    width: 77vw;
+    width: 70%;
 }
 
 p {
-    margin: 50px;
-    margin-right: 100px;
+    width: 50%;
+    font-size: 1rem;
     color: #4EFA37;
     text-align: center;
 }

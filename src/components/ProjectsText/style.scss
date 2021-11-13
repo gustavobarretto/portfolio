@@ -1,15 +1,18 @@
 .project-text {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     border-left: 8px solid #4EFA37;
-    width: 77vw;
-    padding: 50px;
+
+    .card-img-top {
+        align-self: center;
+        height: 15rem;
+    }
 
     .card {
         margin: 20px;
-        border: 4px solid #4EFA37;
+        border: 4px solid #121214;
         background-color: #121214;
 
         .card-body {
@@ -18,6 +21,7 @@
             flex-direction: column;
 
             .card-title {
+                text-align: center;
                 color: #4EFA37;
                 align-self: center;
 

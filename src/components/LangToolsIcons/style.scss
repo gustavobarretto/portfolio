@@ -11,8 +11,14 @@
         margin-right: 160px;
         padding: 80px;
         img {
-            width: 4rem;
-            height: 4rem;
+            width: auto;
+            height: 8vh;
         }
+
+        @media (prefers-reduced-motion: no-preference) {
+            .react-icon {
+              animation: App-logo-spin infinite 20s linear;
+            }
+          }
     }
 }

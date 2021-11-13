@@ -1,3 +1,11 @@
 h1, h2 {
     color: #4EFA37
 }
+
+.banner-component {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}

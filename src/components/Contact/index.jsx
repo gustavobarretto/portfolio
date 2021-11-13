@@ -9,7 +9,7 @@ export const Contact = () => {
             <div className="container">
                 <div className="row">
                     <div className="contact-title">
-                        <h2>contact me</h2>  
+                        <h2 id="contact" >contact me</h2>  
                     </div>
                     <div className="icons-contact">
                         <img src={github} alt="" />

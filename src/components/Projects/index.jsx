@@ -6,7 +6,7 @@ export const Projects = () => {
         <>
             <div className="container">
                 <div className="row">
-                    <div className="col-4">
+                    <div className="col-4 col-sm-12 col-md-6">
                         <h2 id="projects" className="projects-title">projects</h2>
                     </div>
                 </div>

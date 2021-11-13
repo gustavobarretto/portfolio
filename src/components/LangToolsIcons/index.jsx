@@ -28,7 +28,7 @@ export const LangToolsIcons = () => {
                     <img src={nodejs} alt="" />
                     <img src={bootstrap} alt="" />
                     <img src={sass} alt="" />
-                    <img src={react} alt="" />
+                    <img className="react-icon" src={react} alt="" />
                     <img src={postgresql} alt="" />
                     <img src={s3} alt="" />
                     <img src={bash} alt="" />

@@ -5,8 +5,8 @@ export const LangTools = () => {
     return (
         <>
             <div>
-            <h2 id="about" className="tools-title">tools</h2>
-            <LangToolsIcons />
+                <h2 id="tools" className="tools-title">tools</h2>
+                <LangToolsIcons />
             </div> 
         </>
     )

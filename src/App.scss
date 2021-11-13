@@ -1,8 +1,17 @@
 section {
   display: block;
+  height: 100vh;
 }
 
 .home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.contact {
   display: flex;
   flex-direction: column;
   justify-content: center;

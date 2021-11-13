@@ -4,6 +4,7 @@ import { Banner } from './components/Banner';
 import { About } from './components/About'
 import { LangTools } from './components/LangTools';
 import { Projects } from './components/Projects';
+import { Contact } from './components/Contact';
 
 function App() {
   return (
@@ -32,7 +33,7 @@ function App() {
         </div>
         <div className="row">
             <section className="contact">
-              
+              <Contact />
             </section>
         </div>
       </div>

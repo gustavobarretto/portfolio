@@ -3,7 +3,7 @@ import './style.scss';
 export const AboutText = () => {
     return (
         <>
-            <div className="about-me">
+            <div className="row">
                 <div className="about-me-text">
                     <img className="about-me-picture"src="https://st.depositphotos.com/2104799/2142/i/600/depositphotos_21423865-stock-photo-laughing-mole.jpg" alt=""></img>
                     <p>Todos as descrições das pessoas são sobre a 

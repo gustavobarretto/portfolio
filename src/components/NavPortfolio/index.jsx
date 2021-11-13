@@ -1,6 +1,7 @@
 import Navbar from 'react-bootstrap/Navbar';
 import '../NavPortfolio/style.scss';
 
+
 export const NavPortfolio = () => {
     return (
         <Navbar>

@@ -17,7 +17,7 @@ function App() {
         </section>
         <section className="about"> 
             <About />
-        {/* </section>
+        </section>
         <section className="langtools">
             <LangTools />
         </section>
@@ -25,7 +25,7 @@ function App() {
             <Projects />
         </section>
         <section className="contact">
-              <Contact /> */}
+              <Contact />
         </section>
       </div>
     </>

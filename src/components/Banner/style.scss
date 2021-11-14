@@ -1,11 +1,39 @@
-h1, h2 {
-    color: #4EFA37
-}
-
-.banner-component {
+.banner {
+    height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    justify-content: flex-end;
+    background-image: url('../../icons/banner.png');
+    background-size: cover;
+    background-position: center center;  
+}
+
+
+
+.banner-icon {
+    margin-left: 30px;
+    justify-content: flex-start;  
+    margin-bottom: 50px;
+
+}
+
+.banner-icon img {
+    width: auto;
+    height: 200px;
+
+}
+
+.banner-title {
+    margin-bottom: 1.6rem;
+}
+
+.banner-title h1 {
+    font-size: 3rem;
+}
+
+.button-resume {
+    width: 12vw;
+    min-width: 24vw;
+    align-self: center;
+    
 }

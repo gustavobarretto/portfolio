@@ -1,19 +1,26 @@
-.about-row {
-    width: 50%;
-    max-width: 50%;
-}
-
-.about-component {
+.about {
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.profile-title h1 {
+    margin-top: 50px;
+    display: flex;
     justify-content: center;
-    height: 100vh;
 }
 
-.about-title {
-    margin: 50px 0 0 50px;
-}
-
-.about-text-row {
+.profile-pic {
     
+    justify-content: center;
 }
+
+.profile-pic img {
+    width: auto;
+    height: 350px;
+}
+
+.profile-text {
+    text-align: center;
+}
+

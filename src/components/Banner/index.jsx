@@ -1,14 +1,17 @@
 import './style.scss';
-import { NavPortfolio } from '../NavPortfolio/index';
+import icon from '../../icons/icon-header.svg';
 
 export const Banner = () => {
     return (
-        <>
-            <div className="container banner-component">
-                    <h1>Gustavo Barretto</h1> 
-                    <h2>Fullstacker Developer</h2> 
-                    <NavPortfolio />
+        <div className="container-fluid banner">
+            <div className="row banner-title">
+                <h1>Front & Back</h1>
+                <h1>Development</h1>
+                <p>I'm Gustavo Barretto
+                    and I'm a fullstack
+                    developer.
+                </p>
             </div>
-        </>
+        </div>
     )
 }

@@ -1,24 +1,25 @@
-.contact {
-    display: flex;
+.tools {
+    display:flex;
     flex-direction: column;
     justify-content: center;
     background-color: #EBEBEB;
 }
 
-.contact-title h1 {
-    margin-top: 50px;
+.tools-title h1 {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.tools-icons {
     display: flex;
     justify-content: center;
 }
 
-.contact-icons {
-    display: flex;
-    justify-content: center;
-
-}
-
-.contact-icons img {
+.tools-icons img {
     height: 50px;
     width: auto;
     margin: 10px;
 }
+

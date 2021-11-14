@@ -1,21 +1,32 @@
 import './style.scss';
-import {ProjectsText} from '../ProjectsText/index';
+import calc from '../../icons/img-project-calc.svg'
+import count from '../../icons/img-project-countdown.svg'
 
 export const Projects = () => {
     return (
         <>
-            <div className="container">
-                <div className="row">
-                    <div className="col-4 col-sm-12 col-md-6">
-                        <h2 id="projects" className="projects-title">projects</h2>
-                    </div>
+            <div className="containter-fluid projects">
+                <div className="row projects-title">
+                    <h1>Projects</h1>
                 </div>
-                <div className="row">
-                    <div className="offset-3">
-                        <ProjectsText />
+                <div className="row projects-cards">
+                    <div className="card" style={{width: "18rem"}}>
+                        <img className="card-img-top" src={calc} alt="Project"/>
+                        <div className="card-body">
+                            <h5 className="card-title">Calculator in pure javascript</h5>
+                            <a href="#" className="btn btn-primary">Visit</a>
+                        </div>
+                    </div>
+                    <div className="card" style={{width: "18rem"}}>
+                        <img className="card-img-top" src={count} alt="Project"/>
+                        <div className="card-body">
+                            <h5 className="card-title">Countdown in pure javascript</h5>
+                            <a href="#" className="btn btn-primary">Visit</a>
+                        </div>
                     </div>
                 </div>
             </div>
+
         </>
     )
 }

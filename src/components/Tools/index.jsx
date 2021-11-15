@@ -20,27 +20,27 @@ import vercel from '../../icons/vercel.svg'
 export const Tools = () => {
     return (
         <>
-            <div className="container-fluid tools">
+            <div  id="tools" className="container-fluid tools">
                 <div className="row tools-title">
                     <h1>Tools</h1>                
                 </div>
                 <div className="row tools-icons">
-                    <img src={java} alt="" />
-                    <img src={spring} alt="" />
-                    <img src={javascript} alt="" />
-                    <img src={typescript} alt="" />
-                    <img src={python} alt="" />
-                    <img src={nodejs} alt="" />
-                    <img src={react} alt="" />
-                    <img src={bootstrap} alt="" />
-                    <img src={sass} alt="" />
-                    <img src={git} alt="" />
-                    <img src={github} alt="" />
-                    <img src={s3} alt="" />
-                    <img src={postgresql} alt="" />
-                    <img src={robot} alt="" />
-                    <img src={bash} alt="" />
-                    <img src={vercel} alt="" />
+                    <img src={java} alt="Java" />
+                    <img src={spring} alt="Springboot" />
+                    <img src={javascript} alt="Javascript" />
+                    <img src={typescript} alt="Typescript" />
+                    <img src={python} alt="Python" />
+                    <img src={nodejs} alt="NodeJS" />
+                    <img src={react} alt="ReactJS" />
+                    <img src={bootstrap} alt="Bootstrap" />
+                    <img src={sass} alt="SaSS" />
+                    <img src={git} alt="Git" />
+                    <img src={github} alt="Github" />
+                    <img src={s3} alt="AWS S3" />
+                    <img src={postgresql} alt="PostegreSQL" />
+                    <img src={robot} alt="Robot Framework" />
+                    <img src={bash} alt="Bash" />
+                    <img src={vercel} alt="Vercel" />
                 </div>
             </div>
         </>

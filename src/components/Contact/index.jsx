@@ -6,7 +6,7 @@ import email from '../../icons/email.svg';
 export const Contact = () => {
     return (
         <>
-            <div className="container-fluid contact">
+            <div id="contact" className="container-fluid contact">
                 <div className="row contact-title">
                     <h1>Contact me</h1>
                 </div>

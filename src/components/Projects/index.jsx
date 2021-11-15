@@ -5,7 +5,7 @@ import count from '../../icons/img-project-countdown.svg'
 export const Projects = () => {
     return (
         <>
-            <div className="containter-fluid projects">
+            <div id="projects" className="containter-fluid projects">
                 <div className="row projects-title">
                     <h1>Projects</h1>
                 </div>

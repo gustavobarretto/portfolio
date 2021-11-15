@@ -16,19 +16,19 @@ export const Header = () => {
                     <div className="collapse navbar-collapse nav-bar-flex-end" id="navbarSupportedContent">
                         <ul className="navbar-nav mr-auto">
                         <li className="nav-item active">
-                            <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a>
+                            <a className="nav-link" href="#home">Home</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">About</a>
+                            <a className="nav-link" href="#about">About</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link disabled" href="#">Tools</a>
+                            <a className="nav-link" href="#tools">Tools</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link disabled" href="#">Projects</a>
+                            <a className="nav-link" href="#projects">Projects</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link disabled" href="#">Contact</a>
+                            <a className="nav-link" href="#contact">Contact</a>
                         </li>
                         </ul>
                         

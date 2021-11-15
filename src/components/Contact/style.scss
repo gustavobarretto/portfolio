@@ -3,6 +3,7 @@
     flex-direction: column;
     justify-content: center;
     background-color: #EBEBEB;
+    height: 30vh;
 }
 
 .contact-title h1 {
@@ -13,12 +14,23 @@
 
 .contact-icons {
     display: flex;
-    justify-content: center;
+    width: 100vw;
 
+    justify-content: center;
+    
+}
+
+.contact-icons a {
+    width: 50px;
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+    
+    
 }
 
 .contact-icons img {
     height: 50px;
-    width: auto;
     margin: 10px;
+    cursor: pointer;
 }

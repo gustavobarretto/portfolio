@@ -11,9 +11,9 @@ export const Contact = () => {
                     <h1>Contact me</h1>
                 </div>
                 <div className="row contact-icons">
-                    <img src={github} alt="" />
-                    <img src={linkedin} alt="" />
-                    <img src={email} alt="" />
+                    <a href="https://github.com/gustavobarretto"><img  src={github} alt="" /></a>
+                    <a href="https://www.linkedin.com/in/gustavo-barretto1/"><img src={linkedin} alt="" /></a>
+                    <a href="mailto:gustavobarretto@gmail.com" ><img src={email} alt="" /></a>   
                 </div>
             </div>
         </>

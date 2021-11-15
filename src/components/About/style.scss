@@ -10,6 +10,7 @@
     margin-top: 50px;
     display: flex;
     justify-content: center;
+    font-weight: 800;
 }
 
 .profile-pic {
@@ -24,14 +25,14 @@
 
 .profile-text-row  {
     height: auto;
-    width:20rem;
+    width:28rem;
     
-
     justify-content: center;
 }
 
 .profile-text {
     text-align: center;
+    font-weight: 500;
 }
 
 .button-resume {

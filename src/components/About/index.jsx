@@ -1,4 +1,5 @@
 import './style.scss';
+import profile from '../../img/icons/profile-pic.svg'
 
 export const About = () => {
     return (
@@ -9,7 +10,8 @@ export const About = () => {
                     <div className="col-lg-8 text-center">
                         <h2 className="text-white mt-0">About me</h2>
                         <hr className="divider divider-light" />
-                        <p className="text-white-75 mb-4">I'm a 30y old developer. I like to code's challenge, teamwork and team coding. 
+                        <img className="img-fluid col-6" src={profile} alt="" />
+                        <p className="text-white-75 mb-4">I'm a 30y old developer. I like code's challenge, teamwork and team coding. 
                         My  hobbies are read all type of books, watch movies, playing games and make new projects applications. 
                         I love to study code and languages. If you want to know more about my work, just click here below.</p>
                         <a className="btn btn-light btn-xl" href="#services">Tools and Frameworks</a>

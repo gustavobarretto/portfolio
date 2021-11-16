@@ -1,48 +1,44 @@
 import './style.scss';
 
-import bash from '../../icons/bash.svg'
-import bootstrap from '../../icons/bootstrap.svg'
-import git from '../../icons/git.svg'
-import github from '../../icons/github-o_1.svg'
-import java from '../../icons/java.svg'
-import javascript from '../../icons/javascript.svg'
-import nodejs from '../../icons/nodejs.svg'
-import postgresql from '../../icons/postgresql.svg'
-import python from '../../icons/python.svg'
-import react from '../../icons/react.svg'
-import robot from '../../icons/robot.svg'
-import sass from '../../icons/sass.svg'
-import s3 from '../../icons/s3.svg'
-import spring from '../../icons/spring-framework-icon.svg'
-import typescript from '../../icons/typescript.svg'
-import vercel from '../../icons/vercel.svg'
-
 export const Tools = () => {
     return (
         <>
-            <div  id="tools" className="container-fluid tools">
-                <div className="row tools-title">
-                    <h1>Tools</h1>                
-                </div>
-                <div className="row tools-icons">
-                    <img src={java} alt="Java" />
-                    <img src={spring} alt="Springboot" />
-                    <img src={javascript} alt="Javascript" />
-                    <img src={typescript} alt="Typescript" />
-                    <img src={python} alt="Python" />
-                    <img src={nodejs} alt="NodeJS" />
-                    <img src={react} alt="ReactJS" />
-                    <img src={bootstrap} alt="Bootstrap" />
-                    <img src={sass} alt="SaSS" />
-                    <img src={git} alt="Git" />
-                    <img src={github} alt="Github" />
-                    <img src={s3} alt="AWS S3" />
-                    <img src={postgresql} alt="PostegreSQL" />
-                    <img src={robot} alt="Robot Framework" />
-                    <img src={bash} alt="Bash" />
-                    <img src={vercel} alt="Vercel" />
+        <section className="page-section" id="services">
+            <div className="container px-4 px-lg-5">
+                <h2 className="text-center mt-0">At Your Service</h2>
+                <hr className="divider" />
+                <div className="row gx-4 gx-lg-5">
+                    <div className="col-lg-3 col-md-6 text-center">
+                        <div className="mt-5">
+                            <div className="mb-2"><i className="bi-gem fs-1 text-primary"></i></div>
+                            <h3 className="h4 mb-2">Sturdy Themes</h3>
+                            <p className="text-muted mb-0">Our themes are updated regularly to keep them bug free!</p>
+                        </div>
+                    </div>
+                    <div className="col-lg-3 col-md-6 text-center">
+                        <div className="mt-5">
+                            <div className="mb-2"><i className="bi-laptop fs-1 text-primary"></i></div>
+                            <h3 className="h4 mb-2">Up to Date</h3>
+                            <p className="text-muted mb-0">All dependencies are kept current to keep things fresh.</p>
+                        </div>
+                    </div>
+                    <div className="col-lg-3 col-md-6 text-center">
+                        <div className="mt-5">
+                            <div className="mb-2"><i className="bi-globe fs-1 text-primary"></i></div>
+                            <h3 className="h4 mb-2">Ready to Publish</h3>
+                            <p className="text-muted mb-0">You can use this design as is, or you can make changes!</p>
+                        </div>
+                    </div>
+                    <div className="col-lg-3 col-md-6 text-center">
+                        <div className="mt-5">
+                            <div className="mb-2"><i className="bi-heart fs-1 text-primary"></i></div>
+                            <h3 className="h4 mb-2">Made with Love</h3>
+                            <p className="text-muted mb-0">Is it really open source if it's not made with love?</p>
+                        </div>
+                    </div>
                 </div>
             </div>
+        </section>
         </>
     )
 }

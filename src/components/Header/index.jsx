@@ -1,40 +1,25 @@
 import './style.scss';
 
-import icon from '../../icons/icon-header.svg';
 
 
 export const Header = () => {
     return (
+        // Masthead
         <>
-            <header>
-                <nav className="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-                    <a className="navbar-brand" href="#"><img src={icon} alt="" /></a>
-                    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon"></span>
-                    </button>
-
-                    <div className="collapse navbar-collapse nav-bar-flex-end" id="navbarSupportedContent">
-                        <ul className="navbar-nav mr-auto">
-                        <li className="nav-item active">
-                            <a className="nav-link" href="#home">Home</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#about">About</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#tools">Tools</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#projects">Projects</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#contact">Contact</a>
-                        </li>
-                        </ul>
-                        
+        <header className="masthead">
+            <div className="container px-4 px-lg-5 h-100">
+                <div className="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
+                    <div className="col-lg-8 align-self-end">
+                        <h1 className="text-white font-weight-bold">Front-end & Back-end Developer</h1>
+                        <hr className="divider" />
                     </div>
-                </nav>
-            </header>
+                    <div className="col-lg-8 align-self-baseline">
+                        <p className="text-white-75 mb-5">I'm Gustavo Barretto and I'm code mostly in backend</p>
+                        <a className="btn btn-primary btn-xl" href="#about">About Me</a>
+                    </div>
+                </div>
+            </div>
+        </header>
         </>
     )
 }

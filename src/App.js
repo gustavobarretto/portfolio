@@ -1,23 +1,20 @@
-
 import './App.scss';
-
+import { Nav } from './components/Nav';
 import { Header } from './components/Header';
-import { Banner } from './components/Banner';
 import { About } from './components/About';
 import { Tools } from './components/Tools';
-import { Projects } from './components/Projects';
-import { Contact } from './components/Contact';
+import { Portfolio } from './components/Portfolio';
+import { Footer } from './components/Footer';
 
 function App() {
   return (
     <>
+      <Nav />
       <Header />
-      <Banner />
       <About />
       <Tools />
-      <Projects />
-      <Contact />
-    
+      <Portfolio />
+      <Footer />
     </>
   );
 }

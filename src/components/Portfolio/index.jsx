@@ -25,20 +25,20 @@ export const Portfolio = () => {
             <div className="container-fluid p-0">
                 <div className="row g-0"> 
                    <div className="col-lg-4 col-sm-6">
-                        <a className="portfolio-box" href={full1} title="Project Name">
+                        <a className="portfolio-box" href={full1} title="Calculator in pure js">
                             <img className="img-fluid" src={thumb1} alt="..."/>
                             <div className="portfolio-box-caption">
-                                <div className="project-category text-white-50">Category</div>
-                                <div className="project-name">Project Name</div>
+                                <div className="project-category text-white-50">Backend</div>
+                                <div className="project-name">Calculator in pure js</div>
                             </div>
                         </a>
                     </div>
                     <div className="col-lg-4 col-sm-6">
-                        <a className="portfolio-box" href={full2} title="Project Name">
+                        <a className="portfolio-box" href={full2} title="Countdown in pure js">
                             <img className="img-fluid" src={thumb2} alt="..." />
                             <div className="portfolio-box-caption">
-                                <div className="project-category text-white-50">Category</div>
-                                <div className="project-name">Project Name</div>
+                                <div className="project-category text-white-50">Backend</div>
+                                <div className="project-name">Countdown in pure js</div>
                             </div>
                         </a>
                     </div>
@@ -46,33 +46,6 @@ export const Portfolio = () => {
                         <a className="portfolio-box" href={full3} title="Project Name">
                             <img className="img-fluid" src={thumb3} alt="..." />
                             <div className="portfolio-box-caption">
-                                <div className="project-category text-white-50">Category</div>
-                                <div className="project-name">Project Name</div>
-                            </div>
-                        </a>
-                    </div>
-                    <div className="col-lg-4 col-sm-6">
-                        <a className="portfolio-box" href={full4} title="Project Name">
-                            <img className="img-fluid" src={thumb4} alt="..." />
-                            <div className="portfolio-box-caption">
-                                <div className="project-category text-white-50">Category</div>
-                                <div className="project-name">Project Name</div>
-                            </div>
-                        </a>
-                    </div>
-                    <div className="col-lg-4 col-sm-6">
-                        <a className="portfolio-box" href={full5} title="Project Name">
-                            <img className="img-fluid" src={thumb5} alt="..." />
-                            <div className="portfolio-box-caption">
-                                <div className="project-category text-white-50">Category</div>
-                                <div className="project-name">Project Name</div>
-                            </div>
-                        </a>
-                    </div>
-                    <div className="col-lg-4 col-sm-6">
-                        <a className="portfolio-box" href={full6} title="Project Name">
-                            <img className="img-fluid" src={thumb6} alt="..." />
-                            <div className="portfolio-box-caption p-3">
                                 <div className="project-category text-white-50">Category</div>
                                 <div className="project-name">Project Name</div>
                             </div>

@@ -14,7 +14,7 @@ export const Tools = () => {
         <>
         <section className="page-section" id="services">
             <div className="container px-4 px-lg-5">
-                <h2 className="text-center mt-0">Main languages and frameworks</h2>
+                <h2 className="text-center mt-0">Main languages and projects</h2>
                 <hr className="divider" />
                 <div className="row gx-4 gx-lg-5">
                     <div className="col-lg-3 col-md-6 text-center">

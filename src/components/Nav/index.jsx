@@ -23,7 +23,7 @@ export const Nav = () => {
                 <div className="collapse navbar-collapse" id="navbarResponsive">
                     <ul className="navbar-nav ms-auto my-2 my-lg-0">
                         <li className="nav-item"><a className="nav-link" href="#about">About</a></li>
-                        <li className="nav-item"><a className="nav-link" href="#services">Tools & Portfolio</a></li>
+                        <li className="nav-item"><a className="nav-link" href="#services">Languagues & Portfolio</a></li>
                         <li className="nav-item"><a className="nav-link" href="#contact">Contact</a></li>
                     </ul>
                 </div>

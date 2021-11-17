@@ -1,59 +1,49 @@
 import React from 'react';
-import { SRLWrapper } from 'simple-react-lightbox';
 import './style.scss';
-
-import full1 from '../../img/portfolio/fullsize/1.jpg';
-import full2 from '../../img/portfolio/fullsize/2.jpg';
-import full3 from '../../img/portfolio/fullsize/3.jpg';
-import full4 from '../../img/portfolio/fullsize/4.jpg';
-import full5 from '../../img/portfolio/fullsize/5.jpg';
-import full6 from '../../img/portfolio/fullsize/6.jpg';
-
-import thumb1 from '../../img/portfolio/thumbnails/1.jpg';
-import thumb2 from '../../img/portfolio/thumbnails/2.jpg';
-import thumb3 from '../../img/portfolio/thumbnails/3.jpg';
-import thumb4 from '../../img/portfolio/thumbnails/4.jpg';
-import thumb5 from '../../img/portfolio/thumbnails/5.jpg';
-import thumb6 from '../../img/portfolio/thumbnails/6.jpg';
-
+import calculator from '../../img/icons/img-project-calc.svg';
+import countdown from '../../img/icons/img-project-countdown.svg';
+import portfolio from '../../img/icons/portfolio-img.svg'
 
 export const Portfolio = () => {
+    const projectsList = () => {
+        const projectConstructor = (projectId, projectTitle, projectImage, projectLink, projectCategory) => {
+            return {
+                id: projectId,
+                title: projectTitle,
+                image: projectImage,
+                link: projectLink,
+                category: projectCategory
+            }
+        }
+        return [
+            projectConstructor(1, 'Calculator in pure js', calculator, 'https://github.com/gustavobarretto/calculator-js-pure', 'Backend'),
+            projectConstructor(2, 'Countdown in pure js', countdown, 'https://github.com/gustavobarretto/countdown-js-pure', 'Backend'),
+            projectConstructor(3, 'Porftolio in bootstrap and ReactJS', portfolio, 'https://github.com/gustavobarretto/portfolio', 'Frontend')
+        ]
+    }
+
     return (
-    
-      <SRLWrapper>
         <div id="portfolio">
             <div className="container-fluid p-0">
-                <div className="row g-0"> 
-                   <div className="col-lg-4 col-sm-6">
-                        <a className="portfolio-box" href={full1} title="Calculator in pure js">
-                            <img className="img-fluid" src={thumb1} alt="..."/>
-                            <div className="portfolio-box-caption">
-                                <div className="project-category text-white-50">Backend</div>
-                                <div className="project-name">Calculator in pure js</div>
-                            </div>
-                        </a>
-                    </div>
-                    <div className="col-lg-4 col-sm-6">
-                        <a className="portfolio-box" href={full2} title="Countdown in pure js">
-                            <img className="img-fluid" src={thumb2} alt="..." />
-                            <div className="portfolio-box-caption">
-                                <div className="project-category text-white-50">Backend</div>
-                                <div className="project-name">Countdown in pure js</div>
-                            </div>
-                        </a>
-                    </div>
-                    <div className="col-lg-4 col-sm-6">
-                        <a className="portfolio-box" href={full3} title="Project Name">
-                            <img className="img-fluid" src={thumb3} alt="..." />
-                            <div className="portfolio-box-caption">
-                                <div className="project-category text-white-50">Category</div>
-                                <div className="project-name">Project Name</div>
-                            </div>
-                        </a>
-                    </div>
+                <div className="row g-0">
+                {projectsList().map(({id, title, image, link, category}) => {
+                           return (
+                            <React.Fragment key={id}>
+                                <div className="col-lg-4 col-sm-6">
+                                    <a className="portfolio-box" href={link} title={title}>
+                                        <img className="img-fluid thumbnails" src={image} alt="..."/>
+                                        <div className="portfolio-box-caption">
+                                            <div className="project-category text-white-50">{category}</div>
+                                            <div className="project-name">{title}</div>
+                                        </div>
+                                    </a>
+                                </div>
+                                
+                            </React.Fragment>    
+                           )
+                       })}
                 </div>
             </div>
         </div>
-      </SRLWrapper>
     )
 }

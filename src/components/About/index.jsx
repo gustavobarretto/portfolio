@@ -16,7 +16,7 @@ export const About = () => {
                          and challenging myself with new projects. 
                          I love studying codes and languages. 
                          If you want to know more about my work, just click here below.</p>
-                        <a className="btn btn-light btn-xl" href="#services">Tools and Frameworks</a>
+                        <a className="btn btn-light btn-xl" href="#services">My main languages</a>
                     </div>
                 </div>
             </div>

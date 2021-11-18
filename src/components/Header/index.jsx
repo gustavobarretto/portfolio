@@ -14,7 +14,7 @@ export const Header = () => {
                         <hr className="divider" />
                     </div>
                     <div className="col-lg-8 align-self-baseline">
-                        <p className="text-white-75 mb-5">I'm Gustavo Barretto and I code mostly in backend</p>
+                        <p className="text-white-75 mb-5">I'm Gustavo Barretto and I code especially in backend</p>
                         <a className="btn btn-primary btn-xl" href="#about">About Me</a>
                     </div>
                 </div>

@@ -11,9 +11,11 @@ export const About = () => {
                         <h2 className="text-white mt-0">About me</h2>
                         <hr className="divider divider-light" />
                         <img className="img-fluid col-6" src={profile} alt="" />
-                        <p className="text-white-75 mb-4">I'm a 30y old developer. I like code's challenge, teamwork and team coding. 
-                        My  hobbies are read all type of books, watch movies, playing games and make new projects applications. 
-                        I love to study code and languages. If you want to know more about my work, just click here below.</p>
+                        <p className="text-white-75 mb-4">I like coding challenges, teamwork and team coding.
+                         My hobbies are reading all kinds of books, watching all kinds of movies, playing games
+                         and challenging myself with new projects. 
+                         I love studying codes and languages. 
+                         If you want to know more about my work, just click here below.</p>
                         <a className="btn btn-light btn-xl" href="#services">Tools and Frameworks</a>
                     </div>
                 </div>

@@ -18,7 +18,7 @@ export const Portfolio = () => {
         return [
             projectConstructor(1, 'Calculator in pure js', calculator, 'https://github.com/gustavobarretto/calculator-js-pure', 'Backend'),
             projectConstructor(2, 'Countdown in pure js', countdown, 'https://github.com/gustavobarretto/countdown-js-pure', 'Backend'),
-            projectConstructor(3, 'Porftolio in bootstrap and ReactJS', portfolio, 'https://github.com/gustavobarretto/portfolio', 'Frontend')
+            projectConstructor(4, 'To-do List in ReactJS', "https://user-images.githubusercontent.com/85125562/142744404-c25838d5-e16d-449b-b9c7-352ff049bb0f.png", 'https://github.com/gustavobarretto/to-do-list', 'Frontend')
         ]
     }
 

@@ -29,7 +29,7 @@ export const Portfolio = () => {
                            return (
                             <React.Fragment key={id}>
                                 <div className="col-lg-4 col-sm-6">
-                                    <a className="portfolio-box" href={link} title={title}>
+                                    <a className="portfolio-box" target="_blank" href={link} title={title}>
                                         <img className="img-fluid thumbnails" src={image} alt="..."/>
                                         <div className="portfolio-box-caption">
                                             <div className="project-category text-white-50">{category}</div>
